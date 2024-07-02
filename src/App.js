@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ColorBox from './ColorBox';
-import AddInput from './AddInput';
+import ColorBox from './components/ColorBox';
+import AddInput from './components/AddInput';
 
 function App() {
   const [colour, setColour] = useState('');
